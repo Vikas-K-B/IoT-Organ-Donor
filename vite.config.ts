@@ -12,7 +12,8 @@ export default defineConfig(({ mode }) => {
     define: {
       // Critical: Polyfill process.env.API_KEY so it works in the browser
       // and during production builds on Vercel/Netlify.
-      'process.env.API_KEY': JSON.stringify(env.API_KEY || env.VITE_API_KEY || '')
+      // Now supports GEMINI_API_KEY, VITE_API_KEY, or API_KEY.
+      'process.env.API_KEY': JSON.stringify(env.API_KEY || env.VITE_API_KEY || env.GEMINI_API_KEY || '')
     },
     build: {
       outDir: 'dist',
