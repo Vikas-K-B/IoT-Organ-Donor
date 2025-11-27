@@ -1,0 +1,5 @@
+{
+  "name": "GridSync",
+  "description": "A decentralized resource sharing platform where users can offload computational tasks or earn credits by processing tasks for others.",
+  "requestFramePermissions": []
+}
