@@ -1,20 +1,27 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# IoT Organ Donor – Smart Organ Resource Sharing System
 
-# Run and deploy your AI Studio app
+An IoT-based platform designed to facilitate secure and efficient organ donation coordination using connected devices, real-time communication, and blockchain-based record management.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/1-CuXqRJlYizaK3wdNHQfk0ECgkTEWnZD
+- Real-time donor and recipient information management
+- IoT-based monitoring and communication
+- Secure data sharing between connected systems
+- Blockchain-based transaction and record logging
+- Real-time notifications and status updates
 
-## Run Locally
+## Tech Stack
 
-**Prerequisites:**  Node.js
+- Frontend: ...
+- Backend: ...
+- IoT: ...
+- Blockchain: ...
+- Database: ...
 
+## How It Works
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. Donor information is registered securely.
+2. IoT devices collect relevant real-time data.
+3. Data is transmitted to the backend through the communication layer.
+4. Matching and coordination are performed.
+5. Important records are securely logged.
